@@ -8,6 +8,7 @@
 	<title>Хранение ссылок для TV</title>
 </head>
 <body>
+	<div style="min-width:1100px;">
 	<div class="left_cont">
 		<div class="title_first">Search in Google</div>
 		<div class="hidden_input empty">
@@ -80,6 +81,7 @@
 	<div class="right_cont">
 		second
 
+	</div>
 	</div>
 <div style="position: absolute;left: 10px;top:10px;width: 100px;padding: 10px;border: 1px solid #ccc;">
 All: <span class="all_px">100 px</span><br>
