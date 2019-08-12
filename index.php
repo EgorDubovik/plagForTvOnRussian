@@ -4,8 +4,8 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts/keyboard.js"></script>
-	<title>Храние ссылок для TV</title>
+	<script type="text/javascript" src="scripts/keyboard.js?t=4"></script>
+	<title>Хранение ссылок для TV</title>
 </head>
 <body>
 	<div class="left_cont">
@@ -81,5 +81,10 @@
 		second
 
 	</div>
+<div style="position: absolute;left: 10px;top:10px;width: 100px;padding: 10px;border: 1px solid #ccc;">
+All: <span class="all_px">100 px</span><br>
+First: <span class="first_px">100 px</span><br>
+Second: <span class="second_px">100 px</span><br>
+</div>
 </body>
 </html>

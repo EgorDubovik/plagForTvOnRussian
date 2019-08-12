@@ -29,7 +29,16 @@ $(document).ready(function(){
 			window.location = "https://www.google.com/search?q="+$('.hidden_input').html();
 		}
 	});
-})
+});
+$(document).ready(function(){
+	var all = $('body').width();
+	var f = Math.round($('.left_cont').width());
+	var s = Math.round($('.right_cont').width());
+
+	$('.all_px').html(all+"px");
+	$('.first_px').html(f+"px");
+	$('.second_px').html(s+"px");
+});
 
 function removeSymbol(){
 	var html = $('.hidden_input').html();
