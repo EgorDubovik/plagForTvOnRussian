@@ -8,7 +8,7 @@
 	<title>Хранение ссылок для TV</title>
 </head>
 <body>
-	<div style="min-width:1100px;">
+	<div style="min-width:1500px;">
 	<div class="left_cont">
 		<div class="title_first">Search in Google</div>
 		<div class="hidden_input empty">
