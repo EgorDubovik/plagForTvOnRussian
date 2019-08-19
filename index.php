@@ -1,3 +1,7 @@
+<?php 
+	include_once 'db.php';
+	include_once 'php_fun.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,7 +84,23 @@
 
 	<div class="right_cont">
 		second
-
+		<div class="cont_add_link">
+			<form method="post">
+				<input type="hidden" name="event" value="add">
+				<input type="text" name="link" value="">
+				<button type="submit">save</button>
+			</form>
+		</div>
+		<div class="cont_list_links">
+			<?php
+				foreach ($results as $key => $value):?>
+					<div class="item_link">
+						<div class="number"><?=$value['id']?></div>
+						<div class="link"><a href="<?=$value['links']?>"><?=$value['links']?></a></div>
+						<div class="clear"></div>
+					</div>
+			<?php endforeach;?>
+		</div>
 	</div>
 	</div>
 <div style="position: absolute;left: 10px;top:10px;width: 100px;padding: 10px;border: 1px solid #ccc;">
