@@ -5,15 +5,11 @@ body{
 }
 
 .left_cont{
-	width: 47%;
-	border-right:1px solid #ccc;
 	padding: 10px 1%;
-	float: left; 
 }
 .right_cont{
-	width: 48%;
-	float: left;
-	padding: 50px 1%;
+	border-top:1px solid #ccc; 
+	padding: 10px 1%;
 }
 .title_first{
 	text-align: center;
@@ -110,7 +106,8 @@ body{
 
 .cont_list_links .number{
 	float: left;
-	font-size: 25px
+	font-size: 25px;
+	width:20px;
 }
 
 .cont_list_links .link{
@@ -127,4 +124,28 @@ body{
 }
 .hiden_keyboard{
 	display: none;
+}
+.link a{
+	text-decoration: none;
+}
+.link .link_link{
+	font-size: 19px;
+    color: #ccc;
+    margin-left: 50px
+}
+.item_link{
+	padding: 5px 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.remove_link{
+	float: right;
+    background: #F44336;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.remove_link a{
+	color: #000;
+	text-decoration: none;
 }

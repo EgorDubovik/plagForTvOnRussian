@@ -10,6 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/keyboard.js?t=4"></script>
 	<title>Хранение ссылок для TV</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
 	<div style="min-width:1500px;">
@@ -98,8 +99,12 @@
 			<?php
 				foreach ($results as $key => $value):?>
 					<div class="item_link">
-						<div class="number"><?=$value['id']?></div>
-						<div class="link"><a href="<?=$value['links']?>"><?=$value['links']?></a></div>
+						<div class="number"><img src="https://www.google.com/s2/favicons?domain=<?=$value['links']?>"></div>
+						<div class="link"><a href="<?=$value['links']?>">
+							<div class="title_link"><?=$value['title']?></div>
+							<div class="link_link"><?=$value['links']?></div>
+						</a></div>
+						<div class="remove_link"><a href=?remove=<?=$value['id']?>>X</a></div>
 						<div class="clear"></div>
 					</div>
 			<?php endforeach;?>
