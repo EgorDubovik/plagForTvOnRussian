@@ -14,6 +14,7 @@
 <body>
 	<div style="min-width:1500px;">
 	<div class="left_cont">
+		<div class="open_google_search">Open google search</div>
 		<div class="title_first">Search in Google</div>
 		<div class="hidden_input empty">
 			Click on buttons
@@ -103,10 +104,5 @@
 		</div>
 	</div>
 	</div>
-<div style="position: absolute;left: 10px;top:10px;width: 100px;padding: 10px;border: 1px solid #ccc;">
-All: <span class="all_px">100 px</span><br>
-First: <span class="first_px">100 px</span><br>
-Second: <span class="second_px">100 px</span><br>
-</div>
 </body>
 </html>
