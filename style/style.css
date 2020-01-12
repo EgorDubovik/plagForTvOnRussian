@@ -7,7 +7,7 @@ body{
 .left_cont{
 	width: 47%;
 	border-right:1px solid #ccc;
-	padding: 50px 1%;
+	padding: 10px 1%;
 	float: left; 
 }
 .right_cont{
@@ -117,4 +117,14 @@ body{
 	float: left;
 	font-size: 25px;
 	margin-left: 20px;
+}
+
+.open_google_search{
+	text-align: center;
+    background: #e4e4e4;
+    padding: 10px;
+    cursor: pointer;
+}
+.hiden_keyboard{
+	display: none;
 }
